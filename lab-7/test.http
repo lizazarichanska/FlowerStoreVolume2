@@ -1,0 +1,11 @@
+GET https://lit-tor-52043.herokuapp.com/api/v1/flower
+
+###
+POST https://lit-tor-52043.herokuapp.com/api/v1/flower
+Content-Type: application/json
+
+{
+  "sepalLength": 100,
+  "color": "blue",
+  "price": 100
+}
