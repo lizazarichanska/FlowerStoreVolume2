@@ -1,0 +1,10 @@
+GET https://enigmatic-temple-93184.herokuapp.com/api/v1/user
+
+###
+POST https://enigmatic-temple-93184.herokuapp.com/api/v1/user
+Content-Type: application/json
+
+{
+  "email": "bob@gmail.com",
+  "dob": "2007-12-03"
+}
